@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Poppins:wght@200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Poppins:wght@200&family=Roboto&family=Roboto+Slab&display=swap');
+ body{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .navbar{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 112px;
+    background-color: #1A73E8;
+    align-items: start;  
+     
+ }
+
+ nav{
+    width: 100%;
+    height: 48px;
+   display: flex;  
+   box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
+   background-color: white;
+     
+   
+ }
+
+ .nav-item{
+    
+    display:flex;
+    justify-content:start;
+    align-items: center;
+
+ }
+
+ .title{
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .title1{
+    font-size: 22px;
+    padding-left: 2px;
+    font-weight: bold;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .t{
+    display: flex;  
+ }
+
+ .t1{
+    display: flex;  
+ }
+
+ .t2{
+    display: flex; 
+    padding-left: 10px; 
+ }
+
+ .title2{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(245, 226, 19);
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+ .title3{
+    font-size: 22px;
+    padding-left: 2px;
+    font-weight: bold;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+ .title4{
+    font-size: 22px;
+    padding-left: 2px;
+    font-weight:lighter;
+    color: rgb(100, 100, 100);  
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .nav-item2{
+    display: flex;   
+    list-style: none;
+    align-items: center;
+    padding-left: 600px;
+    width: 100px;
+    height: 45px;
+    
+ }
+
+ .option1 a{
+    
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(100, 100, 100);  
+
+ }
+
+ .option2{
+    padding-left: 90px;
+ }
+
+ .option2 a{
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(100, 100, 100);  
+
+ }
+
+ .option1 a:hover{
+    color: blue;
+ }
+
+ .option2 a:hover{
+    color: blue;
+ }
+
+ .bar{
+    text-align: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 310px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+ }
+
+ .hero{
+   width:100%;
+   height: 500px;
+   background-image: linear-gradient(to bottom, #1ed7f769, #fdfdfd);
+   
+   ;
+  
+   
+ }
+
+ .hero .image{
+   position: absolute;
+   top: 150px;
+   left: 680px;
+   border: 10px solid white;
+ }
+ 
+ .learn{
+   display: flex;
+   position: absolute;
+   top: 160px;
+   left: 55px;
+ }
+
+ .learn .l{
+
+   font-size: 100px;
+   color: red;
+   font-weight:bold;
+   font-family: 'Roboto Slab', serif;
+ }
+
+ .learn .earn{
+   position: absolute;
+   top: 22px;
+   left: 60px;
+   font-size: 80px;
+   font-family: 'Roboto Slab', serif;
+   font-weight: bold;
+ }
+
+ .hero1 .comma{
+   position: absolute;
+   left: 291px;
+   top: 170px;
+   font-size: 90px;
+ }
+
+ .build{
+   display: flex;
+   position: absolute;
+   top: 160px;
+   left: 325px;
+ }
+
+ .build .b{
+   font-size: 100px;
+   color: blue;
+   font-weight:bold;
+   font-family: 'Roboto Slab', serif;
+
+ }
+
+ .build .uild{
+   position: absolute;
+   top: 22px;
+   left: 63px;
+   font-size: 80px;
+   font-family: 'Roboto Slab', serif;
+   font-weight: bold;
+
+ }
+
+ .and{
+
+   position: absolute;
+   top: 193px;
+   left: 550px;
+   font-size: 70px;
+   font-weight: bold;
+   font-family: 'Roboto Slab', serif;
+
+ }
+
+ .grow{
+   display: flex;
+   position: absolute;
+   top: 280px;
+   left: 55px;
+ }
+
+ .grow .g{
+   font-size: 100px;
+   color: rgb(9, 182, 3);
+   font-weight:bold;
+   font-family: 'Roboto Slab', serif;
+   
+ }
+
+ .grow .row{
+   position: absolute;
+   top: 20px;
+   left: 79px;
+   font-size: 80px;
+   font-family: 'Roboto Slab', serif;
+   font-weight: bold;
+
+
+ }
+
+ .line{
+   width: 520px;
+   height: 6px;
+   position: absolute;
+   top: 420px;
+   left: 60px;
+   background-image: linear-gradient(to bottom, #1e8ef7d4, #fdfdfd);
+ }
+
+ .mantra{
+   position: absolute;
+   top: 440px;
+   left: 65px;
+   font-size: 20px;
+    color: rgb(100, 100, 100);  
+    font-family: 'Roboto Slab', serif;
+    
+ }
+
+ .main{
+   width: 100%;
+   height: 500px;
+   background-color: rgba(167, 167, 167, 0.205);
+ }
+
+
+ 
+
+ 
+ 
+ 
