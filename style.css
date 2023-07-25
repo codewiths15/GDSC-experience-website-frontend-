@@ -381,8 +381,125 @@
   font-size: 20px;
  }
 
+ .event{
+  width: 100%;
+  height: 960px;
  
+  display: flex;
+  justify-content: center;
+  
+}
 
+.event-sec{
+  width: 1013px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.yell{
+  position: absolute;
+  width: 973px;
+  height: 33px;
+  top: 1250px;
+  left: 148px;
+  background-color: yellow;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
+}
+
+.yell1{
+  position: absolute;
+  width: 30px;
+  height: 33px;
+  top: 1250px;
+  left: 108px;
+  background-color: yellow;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
+}
  
+.event-tit{
+
+  font-size: 36px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  position: absolute;
+  top: 1195px;
+  left: 110px;
+  
+}
+
+.card1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1450px;
+}
+ 
+.event-1{
+  position: absolute;
+  top: 1340px;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(100, 100, 100);  
+
+
+}
+
+.red2{
+  position: absolute;
+  width: 152px;
+  height: 35px;
+  top: 1400px;
+  left: 168px;
+  background-color: #FF0000;
+  opacity: 49%;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.green2{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 1403px;
+  left: 330px;
+  background-color: #00FD0A;
+  opacity: 65%;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.blue2{
+
+  position: absolute;
+  width: 152px;
+  height: 35px;
+  top: 1995px;
+  left: 908px;
+  background-color: #0047FF;
+  opacity: 64%;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  border: 2px solid black;
+
+}
+
+.green12{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 2000px;
+  left: 869px;
+  background-color: #00FD0A;
+  opacity: 65%;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
  
  
